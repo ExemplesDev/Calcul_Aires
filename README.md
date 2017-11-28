@@ -1,5 +1,6 @@
 # Calcul_Aires
 Présentation d'un code C++ et démonstration de sonarQube
+Voir la page wiki associée: https://github.com/ExemplesDev/Calcul_Aires/wiki
 
 ```
 [user@localhost Calcul_Aires]$ tree -L 3
