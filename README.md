@@ -1,7 +1,7 @@
 # Calcul_Aires
 Présentation d'un code C++ et démonstration de sonarQube
 
-
+```
 [user@localhost Calcul_Aires]$ tree -L 3
 .
 |-- Makefile
@@ -29,4 +29,4 @@ Présentation d'un code C++ et démonstration de sonarQube
         |-- Makefile
         |-- test_Rectangle.cpp
         `-- test_Triangle.cpp
-
+```
