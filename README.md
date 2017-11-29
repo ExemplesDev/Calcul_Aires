@@ -65,13 +65,26 @@ et `$ ./build/test_Triangle`
 lancer un navigateur et aller sur cette adresse locale: http://localhost:9000/sonar/
 
 
-## Description des fichiers
+## Description des répertoires et fichgiers
+
+### Répertoires principaux:
+
+* src/ : code source C++
+* cli (=command line interface): programme principal (main.cpp)
+* lib (=library) : classes constituant la bibliothèque FormesGeometriques.a (utilisée par le programme principal)
+* tests (=unit tests) : framework gtest (version 1.6;0) et quelques tests unitaitres de démonstration
+
+### Fichiers spécifiques:
+
+* sonar-project.properties : fichier de configuration de sonarQube
+
+
+
 
 ```
 [user@localhost Calcul_Aires]$ tree -L 3
 .
 |-- Makefile
-|-- Readme
 |-- sonar-project.properties
 |-- src
 |   |-- cli
