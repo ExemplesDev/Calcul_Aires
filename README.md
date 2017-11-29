@@ -70,15 +70,13 @@ lancer un navigateur et aller sur cette adresse locale: http://localhost:9000/so
 ### Répertoires principaux:
 
 * src/ : code source C++
-* cli (=command line interface): programme principal (main.cpp)
-* lib (=library) : classes constituant la bibliothèque FormesGeometriques.a (utilisée par le programme principal)
-* tests (=unit tests) : framework gtest (version 1.6;0) et quelques tests unitaitres de démonstration
+* cli/ (=command line interface): programme principal (main.cpp)
+* lib/ (=library) : classes constituant la bibliothèque FormesGeometriques.a (utilisée par le programme principal)
+* tests/ (=unit tests) : framework gtest (version 1.6;0) et quelques tests unitaitres de démonstration
 
 ### Fichiers spécifiques:
 
-* sonar-project.properties : fichier de configuration de sonarQube
-
-
+* ./sonar-project.properties : fichier de configuration de sonarQube
 
 
 ```
