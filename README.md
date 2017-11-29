@@ -65,7 +65,7 @@ et `$ ./build/test_Triangle`
 lancer un navigateur et aller sur cette adresse locale: http://localhost:9000/sonar/
 
 
-## Description des répertoires et fichgiers
+## Description des répertoires et fichiers
 
 ### Répertoires principaux:
 
