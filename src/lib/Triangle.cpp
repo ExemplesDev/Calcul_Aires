@@ -12,9 +12,9 @@ int Triangle::aire () const {
 
 int Triangle::nouvelleFonction () const {
 
-	int a;
+	int a=0;
 	int* p = new int[10000];
-	// delete [] p;
+	delete [] p;
 	
 	return a*largeur;
 
