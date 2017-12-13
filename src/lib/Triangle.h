@@ -10,6 +10,7 @@ class Triangle: public Polygone {
     Triangle (int a, int b) : Polygone (a,b) {}
     virtual int aire () const;
 
+
  };
 
 #endif

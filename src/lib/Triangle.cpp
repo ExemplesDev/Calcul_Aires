@@ -4,12 +4,12 @@
 int Triangle::aire () const {
 	int aire;
 
-	//aire = largeur * hauteur / 2;
-
-	// Erreur de calcul :
-	aire = largeur * hauteur / 3;
+	// Calcul validé	
+	aire = largeur * hauteur / 2;
 
 	return aire; 
 };
+
+
 
 
