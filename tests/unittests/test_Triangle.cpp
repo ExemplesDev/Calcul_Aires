@@ -18,6 +18,12 @@ TEST_F(TriangleTest, test_aire) {
 	EXPECT_EQ(T1.aire(), 3);
 }
 
+TEST_F(TriangleTest, test_nouvelleFonction) {
+	Triangle T1(0,0);
+	EXPECT_EQ(T1.nouvelleFonction(), 0);
+}
+
+
 
 
 
