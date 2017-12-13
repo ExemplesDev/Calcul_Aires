@@ -13,10 +13,12 @@ TEST_F(RectangleTest, test_init) {
 	EXPECT_EQ(R.getHauteur(),5);
 }
 
+
 TEST_F(RectangleTest, test_aire) {
 	Rectangle R1(2,3);
 	EXPECT_EQ(R1.aire(), 6);
 }
+
 
 
 

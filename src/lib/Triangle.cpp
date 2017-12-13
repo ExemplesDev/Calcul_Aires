@@ -11,3 +11,5 @@ int Triangle::aire () const {
 
 	return aire; 
 };
+
+

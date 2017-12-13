@@ -7,8 +7,10 @@ class Triangle: public Polygone {
   public:
 	
 
-	Triangle (int a, int b) : Polygone (a,b) {}
-    int aire () const;
+    Triangle (int a, int b) : Polygone (a,b) {}
+    virtual int aire () const;
+
  };
+
 #endif
 

@@ -34,7 +34,12 @@ sonar_cppcheck:
 
 # Run vera: static code checker focusing on code style issues
 sonar_vera:
-	bash -c 'find src -regex ".*\.cc\|.*\.hh" | vera++ - -showrules -nodup |& vera++Report2checkstyleReport.perl > $(BUILD_DIR)/vera++-report.xml'
+
+#       vera 1.2
+#	bash -c 'find src -regex ".*\.cc\|.*\.hh" | vera++ - -showrules -nodup |& vera++Report2checkstyleReport.perl > $(BUILD_DIR)/vera++-report.xml'
+
+#	vera 1.3
+	bash -c 'find src -regex ".*\.cpp\|.*\.h" | vera++ - -showrules -nodup |& vera++Report2checkstyleReport.perl > $(BUILD_DIR)/vera++-report.xml'
 
 # Run rats: static code checker focusing on (potential) security problems
 sonar_rats:
@@ -45,8 +50,8 @@ sonar_rats:
 # 2) valgrind/memcheck report
 # 3) raw coverage data (.gcda-files)
 sonar_runtests:
-	-valgrind --xml=yes --xml-file=$(BUILD_DIR)/valgrind-report.xml $(BUILD_DIR)/test_Rectangle --gtest_output=xml:$(BUILD_DIR)/xunit-report1.xml
-	-valgrind --xml=yes --xml-file=$(BUILD_DIR)/valgrind-report.xml $(BUILD_DIR)/test_Triangle --gtest_output=xml:$(BUILD_DIR)/xunit-report2.xml
+	-valgrind --xml=yes --xml-file=$(BUILD_DIR)/valgrind-report_rectangle.xml $(BUILD_DIR)/test_Rectangle --gtest_output=xml:$(BUILD_DIR)/xunit-report_rectangle.xml
+	-valgrind --xml=yes --xml-file=$(BUILD_DIR)/valgrind-report_triangle.xml $(BUILD_DIR)/test_Triangle --gtest_output=xml:$(BUILD_DIR)/xunit-report_triangle.xml
 
 # Collect the coverage data and convert it to cobertura-format
 sonar_coverage:

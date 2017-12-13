@@ -10,10 +10,10 @@ class Polygone {
 
     Polygone(int a,int b);
 
-    int aire () const;
-	int getLargeur () const;
-	int getHauteur () const;
-	void affiche() const;
+    virtual int aire () const = 0;
+    int getLargeur () const;
+    int getHauteur () const;
+    void affiche() const; 
 
 };
 #endif
