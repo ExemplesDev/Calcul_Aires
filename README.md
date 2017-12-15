@@ -24,6 +24,7 @@ Ces logiciels doivent avoir été installés et configurés (versions utilisées
 - vera++ (1.3.0)
 - rats (2.4)
 - gcovr (3.3)
+- doxygen (1.8.13)
 
 ## Installation
 
