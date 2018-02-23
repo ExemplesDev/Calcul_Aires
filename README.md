@@ -74,7 +74,7 @@ lancer un navigateur et aller sur cette adresse locale: http://localhost:9000/so
   * cli/ (=command line interface): programme principal (main.cpp)
   * lib/ (=library) : classes constituant la bibliothèque FormesGeometriques.a (utilisée par le programme principal)
 * tests/ (=unit tests) : 
-  * gtest-1.6.0/ : fichiers source du framework gtest (version 1.6.0), nécéssaire pour l'exécution des tests unitaires
+  * gtest-1.6.0/ : fichiers source du framework gtest (version 1.6.0), necéssaire pour l'exécution des tests unitaires
   * unittests/ quelques tests unitaitres de démonstration
 
 ### Fichiers spécifiques:
